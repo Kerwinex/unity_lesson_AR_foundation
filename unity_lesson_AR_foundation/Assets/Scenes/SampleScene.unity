@@ -336,6 +336,53 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!1 &1200760318
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1200760320}
+  - component: {fileID: 1200760319}
+  m_Layer: 0
+  m_Name: "\u6AA2\u6E2C\u5730\u9762\u9EDE\u64CA\u7BA1\u7406\u5668"
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1200760319
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1200760318}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c14ec6216ef0f3445afce94560936826, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  goSpawn: {fileID: 792035497871104504, guid: daedf2664d5abda408513705818fd9f8, type: 3}
+  arraycastManager: {fileID: 1947629055}
+  tracam: {fileID: 187183236}
+  speedLookAt: 3.5
+--- !u!4 &1200760320
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1200760318}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.6145706, y: 1.7820318, z: 2.8243043}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1935896662
 GameObject:
   m_ObjectHideFlags: 0
@@ -406,7 +453,6 @@ GameObject:
   - component: {fileID: 1947629053}
   - component: {fileID: 1947629052}
   - component: {fileID: 1947629054}
-  - component: {fileID: 1947629056}
   - component: {fileID: 1947629055}
   m_Layer: 0
   m_Name: AR Session Origin
@@ -470,17 +516,3 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_RaycastPrefab: {fileID: 0}
---- !u!114 &1947629056
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1947629051}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c14ec6216ef0f3445afce94560936826, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  goSpawn: {fileID: 792035497871104504, guid: daedf2664d5abda408513705818fd9f8, type: 3}
-  arraycastManager: {fileID: 1947629055}
